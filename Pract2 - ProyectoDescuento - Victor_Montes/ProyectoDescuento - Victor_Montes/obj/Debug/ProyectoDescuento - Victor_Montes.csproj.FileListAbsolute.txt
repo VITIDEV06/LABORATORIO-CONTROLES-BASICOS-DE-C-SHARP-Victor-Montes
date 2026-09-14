@@ -1,0 +1,10 @@
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\bin\Debug\ProyectoDescuento - Victor_Montes.exe.config
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\bin\Debug\ProyectoDescuento - Victor_Montes.exe
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\bin\Debug\ProyectoDescuento - Victor_Montes.pdb
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento - Victor_Montes.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento___Victor_Montes.Form1.resources
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento___Victor_Montes.Properties.Resources.resources
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento - Victor_Montes.csproj.GenerateResource.cache
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento - Victor_Montes.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento - Victor_Montes.exe
+C:\Users\victo\source\repos\ProyectoDescuento - Victor_Montes\ProyectoDescuento - Victor_Montes\obj\Debug\ProyectoDescuento - Victor_Montes.pdb

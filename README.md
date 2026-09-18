@@ -503,27 +503,48 @@ La validación permite comparar los resultados producidos por el programa con c�
 
 ### Operaciones verificadas
 
-```text
-                    VALIDACIÓN
-                        │
-             ┌──────────┴──────────┐
-             │                     │
-        Problema 2             Problema 3
-             │                     │
-             ▼                     ▼
-       Descuento               Suma
-       Total final             Resta
-                               División
-             │                     │
-             └──────────┬──────────┘
-                        ▼
-                Microsoft Excel
-                        │
-                        ▼
-                 Comparación
-                        │
-                        ▼
-                Resultado válido
+```mermaid
+flowchart TD
+    A["VALIDACIÓN DE RESULTADOS"] --> B["PROBLEMA 2<br/>Cálculo de descuento"]
+    A --> C["PROBLEMA 3<br/>Operaciones matemáticas"]
+
+    B --> B1["Precio original"]
+    B --> B2["Descuento aplicado"]
+    B --> B3["Total final"]
+
+    C --> C1["Suma"]
+    C --> C2["Resta"]
+    C --> C3["Multiplicación"]
+    C --> C4["División"]
+
+    B3 --> E["MICROSOFT EXCEL"]
+    C1 --> E
+    C2 --> E
+    C3 --> E
+    C4 --> E
+
+    E --> F{"¿Coinciden los resultados?"}
+
+    F -->|Sí| G["RESULTADOS VERIFICADOS"]
+    F -->|No| H["REVISAR CÁLCULOS"]
+
+    style A fill:#7C3AED,color:#fff,stroke:#C4B5FD,stroke-width:3px
+    style B fill:#F97316,color:#fff,stroke:#FDBA74,stroke-width:2px
+    style C fill:#EC4899,color:#fff,stroke:#F9A8D4,stroke-width:2px
+
+    style B1 fill:#FFEDD5,color:#111827,stroke:#F97316
+    style B2 fill:#FFEDD5,color:#111827,stroke:#F97316
+    style B3 fill:#FFEDD5,color:#111827,stroke:#F97316
+
+    style C1 fill:#FCE7F3,color:#111827,stroke:#EC4899
+    style C2 fill:#FCE7F3,color:#111827,stroke:#EC4899
+    style C3 fill:#FCE7F3,color:#111827,stroke:#EC4899
+    style C4 fill:#FCE7F3,color:#111827,stroke:#EC4899
+
+    style E fill:#217346,color:#fff,stroke:#86EFAC,stroke-width:2px
+    style F fill:#EAB308,color:#111827,stroke:#FDE047,stroke-width:2px
+    style G fill:#22C55E,color:#fff,stroke:#86EFAC,stroke-width:2px
+    style H fill:#DC2626,color:#fff,stroke:#FCA5A5,stroke-width:2px
 ```
 
 ---

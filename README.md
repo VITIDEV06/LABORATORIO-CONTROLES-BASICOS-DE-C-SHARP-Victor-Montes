@@ -690,11 +690,15 @@ flowchart LR
     P2 --> R2["Entrada<br/>Precio + Descuento"]
     P3 --> R3["Entrada<br/>2 números + Operación"]
 
-    R1 --> F["RESULTADOS"]
-    R2 --> F
-    R3 --> F
+    R1 --> F1["RESULTADO<br/>FECHA"]
+    R2 --> F2["RESULTADO<br/>DESCUENTO"]
+    R3 --> F3["RESULTADO<br/>OPERACIÓN"]
 
-    F --> V["VALIDACIÓN<br/>MICROSOFT EXCEL"]
+    F2 --> V["VALIDACIÓN<br/>MICROSOFT EXCEL"]
+    F3 --> V
+
+    F1 --> END["LABORATORIO<br/>COMPLETADO"]
+    V --> END
 
     style A fill:#7C3AED,color:#fff,stroke:#C4B5FD,stroke-width:3px
     style B fill:#06B6D4,color:#fff,stroke:#67E8F9,stroke-width:2px
@@ -707,8 +711,12 @@ flowchart LR
     style R2 fill:#FFEDD5,color:#111827,stroke:#F97316
     style R3 fill:#FCE7F3,color:#111827,stroke:#EC4899
 
-    style F fill:#22C55E,color:#fff,stroke:#86EFAC,stroke-width:2px
+    style F1 fill:#DDD6FE,color:#111827,stroke:#8B5CF6
+    style F2 fill:#FED7AA,color:#111827,stroke:#F97316
+    style F3 fill:#FBCFE8,color:#111827,stroke:#EC4899
+
     style V fill:#217346,color:#fff,stroke:#86EFAC,stroke-width:2px
+    style END fill:#22C55E,color:#fff,stroke:#86EFAC,stroke-width:2px
 ```
 
 ---

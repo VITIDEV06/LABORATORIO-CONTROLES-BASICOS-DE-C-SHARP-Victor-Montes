@@ -87,42 +87,83 @@ Desarrollar aplicaciones gráficas sencillas utilizando **C# y Windows Forms**, 
 
 ---
 
-## Tecnologías utilizadas
+### Stack tecnológico
 
 <div align="center">
 
-|                                    Tecnología                                   | Utilización         |
-| :-----------------------------------------------------------------------------: | ------------------- |
-|             <img src="https://skillicons.dev/icons?i=cs" width="45">            | **C#**              |
-|           <img src="https://skillicons.dev/icons?i=dotnet" width="45">          | **.NET**            |
-|        <img src="https://skillicons.dev/icons?i=visualstudio" width="45">       | **Visual Studio**   |
-|            <img src="https://skillicons.dev/icons?i=git" width="45">            | **Git**             |
-|           <img src="https://skillicons.dev/icons?i=github" width="45">          | **GitHub**          |
-| <img src="https://img.icons8.com/color/48/microsoft-excel-2019.png" width="45"> | **Microsoft Excel** |
+<table>
+<tr>
+<td align="center" width="160">
+
+<img src="https://skillicons.dev/icons?i=cs" width="50">
+
+**Lenguaje principal**
+
+`C#`
+
+</td>
+
+<td align="center" width="160">
+
+<img src="https://skillicons.dev/icons?i=dotnet" width="50">
+
+**Entorno de ejecución**
+
+`.NET`
+
+</td>
+
+<td align="center" width="160">
+
+<img src="https://skillicons.dev/icons?i=visualstudio" width="50">
+
+**Entorno de desarrollo**
+
+`Visual Studio`
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=windows" width="50">
+
+**Interfaz gráfica**
+
+`Windows Forms`
+
+</td>
+
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=git" width="50">
+
+**Control de código**
+
+`Git`
+
+</td>
+
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=github" width="50">
+
+**Repositorio**
+
+`GitHub`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://img.icons8.com/color/48/microsoft-excel-2019.png" width="45">
+
+**Validación de resultados · Microsoft Excel**
 
 </div>
-
-### Stack tecnológico
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                  LABORATORIO #1                     │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  Lenguaje             C#                            │
-│                                                     │
-│  Plataforma            .NET                         │
-│                                                     │
-│  Interfaz              Windows Forms                │
-│                                                     │
-│  IDE                   Visual Studio                │
-│                                                     │
-│  Control de versiones  Git / GitHub                 │
-│                                                     │
-│  Validación            Microsoft Excel              │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
 
 ---
 

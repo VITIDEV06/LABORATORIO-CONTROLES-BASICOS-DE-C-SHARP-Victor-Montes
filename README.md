@@ -657,29 +657,37 @@ mindmap
 
 El laboratorio permitió implementar tres aplicaciones gráficas independientes utilizando C# y Windows Forms.
 
-```text
-                   LABORATORIO #1
-                         │
-           ┌─────────────┼─────────────┐
-           │             │             │
-           ▼             ▼             ▼
-       PROBLEMA 1    PROBLEMA 2    PROBLEMA 3
-           │             │             │
-         FECHA        DESCUENTO    OPERACIONES
-           │             │             │
-           └─────────────┼─────────────┘
-                         │
-                         ▼
-                WINDOWS FORMS
-                         │
-                         ▼
-                  C# + .NET
-                         │
-                         ▼
-                  RESULTADOS
-                         │
-                         ▼
-                VALIDACIÓN EXCEL
+```mermaid
+flowchart LR
+    A["LABORATORIO #1<br/>C# · .NET"] --> B["APLICACIONES<br/>WINDOWS FORMS"]
+
+    B --> P1["PROBLEMA 1<br/><br/>FECHA"]
+    B --> P2["PROBLEMA 2<br/><br/>DESCUENTO"]
+    B --> P3["PROBLEMA 3<br/><br/>OPERACIONES"]
+
+    P1 --> R1["Entrada<br/>Fecha"]
+    P2 --> R2["Entrada<br/>Precio + Descuento"]
+    P3 --> R3["Entrada<br/>2 números + Operación"]
+
+    R1 --> F["RESULTADOS"]
+    R2 --> F
+    R3 --> F
+
+    F --> V["VALIDACIÓN<br/>MICROSOFT EXCEL"]
+
+    style A fill:#7C3AED,color:#fff,stroke:#C4B5FD,stroke-width:3px
+    style B fill:#06B6D4,color:#fff,stroke:#67E8F9,stroke-width:2px
+
+    style P1 fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style P2 fill:#F97316,color:#fff,stroke:#FDBA74
+    style P3 fill:#EC4899,color:#fff,stroke:#F9A8D4
+
+    style R1 fill:#EDE9FE,color:#111827,stroke:#8B5CF6
+    style R2 fill:#FFEDD5,color:#111827,stroke:#F97316
+    style R3 fill:#FCE7F3,color:#111827,stroke:#EC4899
+
+    style F fill:#22C55E,color:#fff,stroke:#86EFAC,stroke-width:2px
+    style V fill:#217346,color:#fff,stroke:#86EFAC,stroke-width:2px
 ```
 
 ---

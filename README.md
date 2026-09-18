@@ -2,6 +2,8 @@
 
 # Laboratorio #1 — Controles Básicos de C#
 
+<img src="./assets/banner-laboratorio.jpg" alt="Banner del Laboratorio" width="100%">
+
 ### Aplicaciones Windows Forms con C#
 
 **Universidad Tecnológica de Panamá · Facultad de Ingeniería de Sistemas Computacionales**

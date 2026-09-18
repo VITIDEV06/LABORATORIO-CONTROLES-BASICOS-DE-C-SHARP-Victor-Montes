@@ -26,6 +26,7 @@
 **Fecha de realización:** 16 de agosto de 2026
 
 </div>
+
 ---
 
 ## Contenido

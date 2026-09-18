@@ -264,11 +264,13 @@ flowchart TD
     
     E -->|Suma| F["Número 1 + Número 2"]
     E -->|Resta| G["Número 1 - Número 2"]
-    E -->|División| H["Número 1 / Número 2"]
+    E -->|Multiplicación| H["Número 1 × Número 2"]
+    E -->|División| J["Número 1 / Número 2"]
     
     F --> I["Mostrar resultado"]
     G --> I
     H --> I
+    J --> I
     
     style A fill:#7C3AED,color:#fff,stroke:#A78BFA
     style B fill:#06B6D4,color:#fff,stroke:#67E8F9
@@ -278,6 +280,7 @@ flowchart TD
     style F fill:#8B5CF6,color:#fff,stroke:#C4B5FD
     style G fill:#8B5CF6,color:#fff,stroke:#C4B5FD
     style H fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style J fill:#8B5CF6,color:#fff,stroke:#C4B5FD
     style I fill:#22C55E,color:#fff,stroke:#86EFAC
 ```
 

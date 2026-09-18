@@ -296,7 +296,7 @@ Las siguientes capturas corresponden a la ejecución de cada uno de los problema
 
 ### Ingreso y visualización de fecha
 
-![Captura del Problema 1](./assets/NOMBRE-EXACTO-PROBLEMA-1.png)
+![Captura del Problema 1](./assets/problema-1.png)
 
 **Descripción:**
 Interfaz desarrollada en Windows Forms para ingresar día, mes y año, y posteriormente mostrar la fecha resultante.
@@ -307,7 +307,7 @@ Interfaz desarrollada en Windows Forms para ingresar día, mes y año, y posteri
 
 ### Cálculo de descuento
 
-![Captura del Problema 2](./assets/NOMBRE-EXACTO-PROBLEMA-2.png)
+![Captura del Problema 2](./assets/problema-2.png)
 
 **Descripción:**
 Interfaz encargada de recibir el precio y el porcentaje de descuento para calcular el valor descontado y el total final.
@@ -318,7 +318,7 @@ Interfaz encargada de recibir el precio y el porcentaje de descuento para calcul
 
 ### Operaciones matemáticas
 
-![Captura del Problema 3](./assets/NOMBRE-EXACTO-PROBLEMA-3.png)
+![Captura del Problema 3](./assets/problema-3.png)
 
 **Descripción:**
 Interfaz que permite ingresar dos valores y seleccionar mediante `RadioButton` la operación matemática que se desea ejecutar.

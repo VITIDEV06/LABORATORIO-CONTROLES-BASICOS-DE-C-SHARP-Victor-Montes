@@ -367,12 +367,18 @@ flowchart TB
 
 # Estructura del repositorio
 
-El repositorio está organizado en tres proyectos independientes correspondientes a las prácticas del laboratorio.
+El repositorio está organizado en tres proyectos independientes correspondientes a las prácticas del laboratorio, junto con la carpeta `assets` utilizada para los recursos gráficos del proyecto.
 
 ```text
 LABORATORIO-CONTROLES-BASICOS-DE-C-SHARP-Victor-Montes/
 │
 ├── README.md
+│
+├── assets/
+│   ├── banner-laboratorio.jpg
+│   ├── problema-1.png
+│   ├── problema-2.png
+│   └── problema-3.png
 │
 ├── Pract1 - Controles - Victor Montes/
 │   │
@@ -396,22 +402,16 @@ LABORATORIO-CONTROLES-BASICOS-DE-C-SHARP-Victor-Montes/
 │       ├── Program.cs
 │       └── ProyectoDescuento - Victor_Montes.csproj
 │
-├── Pract3 - EstructuraIf 3 - Victor Montes/
-│   │
-│   ├── Pract8-EstructuraIf 3 - Victor Montes.slnx
-│   │
-│   └── Pract8-EstructuraIf 3 - Victor Montes/
-│       ├── Form1.cs
-│       ├── Form1.Designer.cs
-│       ├── Form1.resx
-│       ├── Program.cs
-│       └── Pract8-EstructuraIf 3 - Victor Montes.csproj
-│
-└── docs/
-    └── images/
-        ├── problema-1.png
-        ├── problema-2.png
-        └── problema-3.png
+└── Pract3 - EstructuraIf 3 - Victor Montes/
+    │
+    ├── Pract8-EstructuraIf 3 - Victor Montes.slnx
+    │
+    └── Pract8-EstructuraIf 3 - Victor Montes/
+        ├── Form1.cs
+        ├── Form1.Designer.cs
+        ├── Form1.resx
+        ├── Program.cs
+        └── Pract8-EstructuraIf 3 - Victor Montes.csproj
 ```
 
 ### Organización lógica

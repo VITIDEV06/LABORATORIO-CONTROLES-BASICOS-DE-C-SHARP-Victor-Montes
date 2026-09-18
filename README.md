@@ -1,227 +1,679 @@
-# 🧪 Laboratorio de C# — Windows Forms
+<div align="center">
 
-Proyecto desarrollado en **C# utilizando Windows Forms**, como parte de las prácticas de programación. El laboratorio contiene diferentes ejercicios orientados al manejo de formularios, entrada de datos, eventos de botones, operaciones matemáticas y cálculos.
+# Laboratorio #1 — Controles Básicos de C#
 
-## 📌 Descripción
+### Aplicaciones Windows Forms con C#
 
-El proyecto está compuesto por **tres prácticas principales**, cada una enfocada en una funcionalidad diferente:
+**Universidad Tecnológica de Panamá · Facultad de Ingeniería de Sistemas Computacionales**
 
-1. 📅 **Ingreso y visualización de fecha**
-2. **Cálculo de descuentos**
-3. 🧮 **Operaciones matemáticas**
+<br>
 
-Además, se elaboró un archivo de **Excel para comprobar y validar los resultados obtenidos en las prácticas 2 y 3**.
+<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,git,github" alt="Tecnologías utilizadas" />
 
----
+<br><br>
 
-## 🛠️ Tecnologías utilizadas
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge\&logo=csharp\&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge\&logo=visualstudio\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
-* **C#**
-* **Windows Forms**
-* **.NET**
-* **Visual Studio**
-* **Microsoft Excel**
+<br>
 
----
+**Fecha de realización:** 16 de agosto de 2026
 
-# 📚 Prácticas realizadas
-
-## 📅 Práctica 1 — Fecha
-
-Esta práctica permite ingresar los datos correspondientes a:
-
-* Día
-* Mes
-* Año
-
-El usuario introduce cada valor en el formulario y posteriormente presiona un botón para mostrar la fecha ingresada.
-
-### Funcionamiento
-
-```text
-Día: 24
-Mes: 08
-Año: 2026
-
-        ↓
-
-    [ Mostrar ]
-
-        ↓
-
-24/08/2026
-```
-
-El objetivo es practicar la **captura de datos mediante controles de Windows Forms y la interacción mediante botones**.
+</div>
 
 ---
 
-## Práctica 2 — Cálculo de descuento
+## Contenido
 
-En esta práctica se introduce un **precio** y se realiza el cálculo de un descuento.
+* [Descripción](#descripción)
+* [Objetivos](#objetivos)
+* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Descripción de las prácticas](#descripción-de-las-prácticas)
+* [Capturas de pantalla y problemas](#capturas-de-pantalla-y-problemas)
+* [Flujo general del laboratorio](#flujo-general-del-laboratorio)
+* [Estructura del repositorio](#estructura-del-repositorio)
+* [Comprobación mediante Excel](#comprobación-mediante-excel)
+* [Requisitos](#requisitos)
+* [Ejecución](#ejecución)
+* [Autor y contexto académico](#autor-y-contexto-académico)
 
-El programa muestra:
+---
 
-* Precio indicado
-* Descuento en porcentaje
-* Descuento en dólares
-* Total a pagar
+## Descripción
 
-### Ejemplo
+Este repositorio contiene el desarrollo del **Laboratorio #1 de Programación**, realizado utilizando el lenguaje **C#** y la tecnología **Windows Forms**.
 
-Si el usuario introduce:
+La práctica está orientada al aprendizaje y aplicación de conceptos fundamentales relacionados con:
+
+* Controles de interfaz gráfica.
+* Captura de datos.
+* Eventos de botones.
+* Conversión de datos.
+* Operaciones matemáticas.
+* Cálculos porcentuales.
+* Estructuras condicionales.
+* Selección de opciones mediante `RadioButton`.
+* Presentación de resultados.
+* Validación de cálculos mediante Microsoft Excel.
+
+El laboratorio está compuesto por **tres problemas independientes**, cada uno implementado como un proyecto de Windows Forms.
+
+---
+
+## Objetivos
+
+### Objetivo general
+
+Desarrollar aplicaciones gráficas sencillas utilizando **C# y Windows Forms**, aplicando controles básicos de interfaz y lógica de programación para resolver diferentes problemas.
+
+### Objetivos específicos
+
+* Utilizar controles básicos de Windows Forms.
+* Capturar información introducida por el usuario.
+* Manipular valores numéricos.
+* Realizar operaciones aritméticas.
+* Implementar cálculos de porcentajes.
+* Utilizar botones para ejecutar acciones.
+* Utilizar `RadioButton` para seleccionar operaciones.
+* Mostrar resultados dinámicamente.
+* Aplicar estructuras condicionales.
+* Verificar los resultados obtenidos mediante Microsoft Excel.
+
+---
+
+## Tecnologías utilizadas
+
+<div align="center">
+
+|                                    Tecnología                                   | Utilización         |
+| :-----------------------------------------------------------------------------: | ------------------- |
+|             <img src="https://skillicons.dev/icons?i=cs" width="45">            | **C#**              |
+|           <img src="https://skillicons.dev/icons?i=dotnet" width="45">          | **.NET**            |
+|        <img src="https://skillicons.dev/icons?i=visualstudio" width="45">       | **Visual Studio**   |
+|            <img src="https://skillicons.dev/icons?i=git" width="45">            | **Git**             |
+|           <img src="https://skillicons.dev/icons?i=github" width="45">          | **GitHub**          |
+| <img src="https://img.icons8.com/color/48/microsoft-excel-2019.png" width="45"> | **Microsoft Excel** |
+
+</div>
+
+### Stack tecnológico
 
 ```text
-Precio: $100.00
-Descuento: 15%
+┌─────────────────────────────────────────────────────┐
+│                  LABORATORIO #1                     │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  Lenguaje             C#                            │
+│                                                     │
+│  Plataforma            .NET                         │
+│                                                     │
+│  Interfaz              Windows Forms                │
+│                                                     │
+│  IDE                   Visual Studio                │
+│                                                     │
+│  Control de versiones  Git / GitHub                 │
+│                                                     │
+│  Validación            Microsoft Excel              │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-El programa calcula:
+---
 
-```text
-Descuento en dólares: $15.00
-Total a pagar: $85.00
+# Descripción de las prácticas
+
+## Problema 1 — Ingreso y visualización de una fecha
+
+La primera práctica consiste en desarrollar una interfaz que permita al usuario introducir una fecha mediante diferentes campos.
+
+El formulario solicita:
+
+* Día.
+* Mes.
+* Año.
+
+Posteriormente, mediante un botón, los valores introducidos son procesados y la fecha es mostrada al usuario.
+
+### Flujo de funcionamiento
+
+```mermaid
+flowchart LR
+    A["Inicio"] --> B["Ingresar día"]
+    B --> C["Ingresar mes"]
+    C --> D["Ingresar año"]
+    D --> E["Presionar botón"]
+    E --> F["Procesar datos"]
+    F --> G["Mostrar fecha"]
+    
+    style A fill:#7C3AED,color:#fff,stroke:#A78BFA
+    style B fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style C fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style D fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style E fill:#F97316,color:#fff,stroke:#FDBA74
+    style F fill:#EC4899,color:#fff,stroke:#F9A8D4
+    style G fill:#22C55E,color:#fff,stroke:#86EFAC
 ```
 
-### Fórmulas utilizadas
+### Conceptos aplicados
 
-**Descuento en dólares:**
+* `TextBox`
+* `Button`
+* Captura de datos
+* Conversión de valores
+* Manipulación de información
+* Eventos de Windows Forms
+
+---
+
+## Problema 2 — Cálculo de descuento
+
+La segunda práctica desarrolla una aplicación capaz de calcular el descuento aplicado sobre el precio de un producto.
+
+El usuario proporciona:
+
+* Precio.
+* Porcentaje de descuento.
+
+El programa calcula automáticamente:
+
+1. El valor monetario del descuento.
+2. El precio final a pagar.
+
+### Fórmula del descuento
 
 ```text
 Descuento = Precio × (Porcentaje / 100)
 ```
 
-**Total a pagar:**
+### Fórmula del precio final
 
 ```text
 Total = Precio - Descuento
 ```
 
-Los resultados de esta práctica también fueron **comprobados mediante el archivo de Excel desarrollado para el laboratorio**.
+### Flujo de funcionamiento
 
----
-
-## 🧮 Práctica 3 — Operaciones matemáticas
-
-La tercera práctica permite realizar operaciones matemáticas utilizando **dos números ingresados por el usuario**.
-
-Las operaciones disponibles son:
-
-* Suma
-* Resta
-* División
-
-El usuario introduce los dos números y selecciona la operación mediante un **RadioButton**.
-
-Posteriormente, al presionar el botón correspondiente, el programa realiza la operación seleccionada y muestra el resultado.
+```mermaid
+flowchart TD
+    A["Inicio"] --> B["Ingresar precio"]
+    B --> C["Ingresar porcentaje"]
+    C --> D["Presionar calcular"]
+    D --> E["Calcular descuento"]
+    E --> F["Calcular total"]
+    F --> G["Mostrar resultados"]
+    
+    style A fill:#7C3AED,color:#fff,stroke:#A78BFA
+    style B fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style C fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style D fill:#F97316,color:#fff,stroke:#FDBA74
+    style E fill:#EC4899,color:#fff,stroke:#F9A8D4
+    style F fill:#EC4899,color:#fff,stroke:#F9A8D4
+    style G fill:#22C55E,color:#fff,stroke:#86EFAC
+```
 
 ### Ejemplo
 
 ```text
-Número 1: 20
-Número 2: 5
+Precio:       $100.00
+Descuento:       15%
 
-Operación:
-( ) Suma
-( ) Resta
-(x) División
-
-        ↓
-
-    [ Calcular ]
-
-        ↓
-
-Resultado: 4
+Descuento:     $15.00
+Total:         $85.00
 ```
 
-### Operaciones
+### Conceptos aplicados
 
-| Operación | Fórmula             |
+* `TextBox`
+* `Button`
+* Variables numéricas
+* Porcentajes
+* Operaciones aritméticas
+* Conversión de datos
+* Presentación de resultados
+
+---
+
+## Problema 3 — Operaciones matemáticas
+
+La tercera práctica permite realizar diferentes operaciones matemáticas utilizando dos números introducidos por el usuario.
+
+Las operaciones implementadas son:
+
+| Operación | Expresión           |
 | --------- | ------------------- |
 | Suma      | `Número1 + Número2` |
 | Resta     | `Número1 - Número2` |
 | División  | `Número1 / Número2` |
 
-Los resultados de esta práctica también fueron **verificados utilizando el archivo de Excel**.
+La operación es seleccionada mediante controles `RadioButton`.
 
-> ⚠️ En el caso de la división, se debe considerar que el segundo número no sea `0`.
+### Flujo de funcionamiento
 
----
+```mermaid
+flowchart TD
+    A["Inicio"] --> B["Ingresar número 1"]
+    B --> C["Ingresar número 2"]
+    C --> D["Seleccionar operación"]
+    D --> E{"¿Qué operación?"}
+    
+    E -->|Suma| F["Número 1 + Número 2"]
+    E -->|Resta| G["Número 1 - Número 2"]
+    E -->|División| H["Número 1 / Número 2"]
+    
+    F --> I["Mostrar resultado"]
+    G --> I
+    H --> I
+    
+    style A fill:#7C3AED,color:#fff,stroke:#A78BFA
+    style B fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style C fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style D fill:#F97316,color:#fff,stroke:#FDBA74
+    style E fill:#E11D48,color:#fff,stroke:#FDA4AF
+    style F fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style G fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style H fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style I fill:#22C55E,color:#fff,stroke:#86EFAC
+```
 
-# 📊 Comprobación mediante Excel
+### Consideración importante
 
-Como parte del laboratorio se desarrolló un archivo de **Microsoft Excel** utilizado para comprobar los resultados obtenidos por el programa.
-
-El Excel permite comparar los cálculos realizados manualmente con los resultados generados por la aplicación.
-
-Se utilizó principalmente para validar:
-
-* Cálculo del descuento en dólares.
-* Cálculo del total a pagar.
-* Suma de dos números.
-* Resta de dos números.
-* División de dos números.
-
-Esto permite comprobar que las operaciones implementadas en C# producen los resultados esperados.
-
----
-
-# 🎯 Objetivos del laboratorio
-
-Con este laboratorio se busca practicar:
-
-* Uso de **C#**.
-* Desarrollo de aplicaciones con **Windows Forms**.
-* Captura de información mediante controles.
-* Uso de `TextBox`.
-* Uso de `Button`.
-* Uso de `RadioButton`.
-* Manejo de eventos.
-* Operaciones matemáticas.
-* Cálculos con porcentajes.
-* Conversión de datos introducidos por el usuario.
-* Validación de resultados mediante Excel.
+En la operación de división debe evitarse que el segundo número sea `0`, ya que no es posible realizar una división entre cero.
 
 ---
 
-# 🖥️ Estructura general
+# Capturas de pantalla y problemas
 
-El funcionamiento del laboratorio puede resumirse de la siguiente manera:
+Las siguientes capturas corresponden a la ejecución de cada uno de los problemas desarrollados.
 
-```text
-                  LABORATORIO C#
-                       │
-          ┌────────────┼────────────┐
-          │            │            │
-          ▼            ▼            ▼
-      PRÁCTICA 1   PRÁCTICA 2   PRÁCTICA 3
-          │            │            │
-          ▼            ▼            ▼
-        Fecha       Descuento    Operaciones
-                       │            │
-                       └──────┬─────┘
-                              ▼
-                         EXCEL
-                       Comprobación
+> Coloca las imágenes dentro de `docs/images/` utilizando los nombres indicados.
+
+---
+
+## Interfaz — Problema 1
+
+### Ingreso y visualización de fecha
+
+![Captura del Problema 1](docs/images/problema-1.png)
+
+**Descripción:**
+Interfaz desarrollada en Windows Forms para ingresar día, mes y año, y posteriormente mostrar la fecha resultante.
+
+---
+
+## Interfaz — Problema 2
+
+### Cálculo de descuento
+
+![Captura del Problema 2](docs/images/problema-2.png)
+
+**Descripción:**
+Interfaz encargada de recibir el precio y el porcentaje de descuento para calcular el valor descontado y el total final.
+
+---
+
+## Interfaz — Problema 3
+
+### Operaciones matemáticas
+
+![Captura del Problema 3](docs/images/problema-3.png)
+
+**Descripción:**
+Interfaz que permite ingresar dos valores y seleccionar mediante `RadioButton` la operación matemática que se desea ejecutar.
+
+---
+
+# Flujo general del laboratorio
+
+El funcionamiento general del laboratorio puede representarse mediante el siguiente flujo:
+
+```mermaid
+flowchart TB
+    A["LABORATORIO #1<br/>Controles Básicos de C#"]
+    
+    A --> B["Problema 1<br/>Fecha"]
+    A --> C["Problema 2<br/>Descuento"]
+    A --> D["Problema 3<br/>Operaciones"]
+    
+    B --> E["Windows Forms"]
+    C --> E
+    D --> E
+    
+    E --> F["Captura de datos"]
+    F --> G["Procesamiento"]
+    G --> H["Resultado"]
+    
+    C --> I["Validación"]
+    D --> I
+    
+    I --> J["Microsoft Excel"]
+    
+    style A fill:#7C3AED,color:#fff,stroke:#C4B5FD,stroke-width:3px
+    style B fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style C fill:#F97316,color:#fff,stroke:#FDBA74
+    style D fill:#EC4899,color:#fff,stroke:#F9A8D4
+    style E fill:#2563EB,color:#fff,stroke:#93C5FD
+    style F fill:#8B5CF6,color:#fff,stroke:#C4B5FD
+    style G fill:#E11D48,color:#fff,stroke:#FDA4AF
+    style H fill:#22C55E,color:#fff,stroke:#86EFAC
+    style I fill:#F59E0B,color:#fff,stroke:#FCD34D
+    style J fill:#16A34A,color:#fff,stroke:#86EFAC
 ```
 
 ---
 
-# 🚀 Ejecución del proyecto
+# Estructura del repositorio
 
-Para ejecutar el proyecto:
+El repositorio está organizado en tres proyectos independientes correspondientes a las prácticas del laboratorio.
 
-1. Clonar o descargar el repositorio.
-2. Abrir la solución en **Visual Studio**.
-3. Abrir el archivo de solución `.sln`.
-4. Compilar el proyecto.
-5. Ejecutar la aplicación.
+```text
+LABORATORIO-CONTROLES-BASICOS-DE-C-SHARP-Victor-Montes/
+│
+├── README.md
+│
+├── Pract1 - Controles - Victor Montes/
+│   │
+│   ├── Pract1-Controles.slnx
+│   │
+│   └── Pract1-Controles/
+│       ├── Form1.cs
+│       ├── Form1.Designer.cs
+│       ├── Form1.resx
+│       ├── Program.cs
+│       └── Pract1-Controles.csproj
+│
+├── Pract2 - ProyectoDescuento - Victor_Montes/
+│   │
+│   ├── ProyectoDescuento - Victor_Montes.slnx
+│   │
+│   └── ProyectoDescuento - Victor_Montes/
+│       ├── Form1.cs
+│       ├── Form1.Designer.cs
+│       ├── Form1.resx
+│       ├── Program.cs
+│       └── ProyectoDescuento - Victor_Montes.csproj
+│
+├── Pract3 - EstructuraIf 3 - Victor Montes/
+│   │
+│   ├── Pract8-EstructuraIf 3 - Victor Montes.slnx
+│   │
+│   └── Pract8-EstructuraIf 3 - Victor Montes/
+│       ├── Form1.cs
+│       ├── Form1.Designer.cs
+│       ├── Form1.resx
+│       ├── Program.cs
+│       └── Pract8-EstructuraIf 3 - Victor Montes.csproj
+│
+└── docs/
+    └── images/
+        ├── problema-1.png
+        ├── problema-2.png
+        └── problema-3.png
+```
+
+### Organización lógica
+
+```mermaid
+flowchart LR
+    R["Repositorio"]
+    
+    R --> P1["Práctica 1"]
+    R --> P2["Práctica 2"]
+    R --> P3["Práctica 3"]
+    R --> DOC["Documentación"]
+    
+    P1 --> F1["Form1.cs"]
+    P1 --> D1["Designer"]
+    P1 --> S1["Solution"]
+    
+    P2 --> F2["Form1.cs"]
+    P2 --> D2["Designer"]
+    P2 --> S2["Solution"]
+    
+    P3 --> F3["Form1.cs"]
+    P3 --> D3["Designer"]
+    P3 --> S3["Solution"]
+    
+    DOC --> IMG["Capturas"]
+    DOC --> README["README.md"]
+    
+    style R fill:#7C3AED,color:#fff,stroke:#C4B5FD,stroke-width:3px
+    style P1 fill:#06B6D4,color:#fff,stroke:#67E8F9
+    style P2 fill:#F97316,color:#fff,stroke:#FDBA74
+    style P3 fill:#EC4899,color:#fff,stroke:#F9A8D4
+    style DOC fill:#22C55E,color:#fff,stroke:#86EFAC
+    style IMG fill:#10B981,color:#fff,stroke:#6EE7B7
+    style README fill:#10B981,color:#fff,stroke:#6EE7B7
+```
 
 ---
 
-# 👨‍💻 Autor
+# Comprobación mediante Excel
 
-**Victor Montes**
+Como complemento del laboratorio, se utilizó **Microsoft Excel** para comprobar los resultados obtenidos en determinadas operaciones.
 
-Proyecto académico desarrollado como práctica de programación utilizando **C# y Windows Forms**.
+La validación permite comparar los resultados producidos por el programa con cálculos independientes.
+
+### Operaciones verificadas
+
+```text
+                    VALIDACIÓN
+                        │
+             ┌──────────┴──────────┐
+             │                     │
+        Problema 2             Problema 3
+             │                     │
+             ▼                     ▼
+       Descuento               Suma
+       Total final             Resta
+                               División
+             │                     │
+             └──────────┬──────────┘
+                        ▼
+                Microsoft Excel
+                        │
+                        ▼
+                 Comparación
+                        │
+                        ▼
+                Resultado válido
+```
+
+---
+
+# Requisitos
+
+Para ejecutar los proyectos se requiere un entorno compatible con aplicaciones Windows Forms desarrolladas en C#.
+
+### Software
+
+* Windows.
+* Visual Studio.
+* .NET compatible con el proyecto.
+* Microsoft Excel para consultar la validación de resultados.
+
+### Conocimientos recomendados
+
+* Fundamentos de programación.
+* Variables.
+* Operadores aritméticos.
+* Estructuras condicionales.
+* Eventos.
+* C# básico.
+* Conceptos básicos de Windows Forms.
+
+---
+
+# Ejecución
+
+## 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/VITIDEV06/LABORATORIO-CONTROLES-BASICOS-DE-C-SHARP-Victor-Montes.git
+```
+
+## 2. Acceder al repositorio
+
+```bash
+cd LABORATORIO-CONTROLES-BASICOS-DE-C-SHARP-Victor-Montes
+```
+
+## 3. Abrir el proyecto
+
+Abrir cualquiera de las tres soluciones `.slnx` utilizando **Visual Studio**.
+
+```text
+Pract1 - Controles - Victor Montes/
+Pract2 - ProyectoDescuento - Victor_Montes/
+Pract3 - EstructuraIf 3 - Victor Montes/
+```
+
+## 4. Compilar
+
+Desde Visual Studio:
+
+```text
+Build
+   ↓
+Build Solution
+```
+
+## 5. Ejecutar
+
+Ejecutar la aplicación utilizando:
+
+```text
+Start
+```
+
+o mediante:
+
+```text
+F5
+```
+
+---
+
+# Controles de Windows Forms utilizados
+
+El laboratorio permite trabajar con diferentes controles básicos de la interfaz gráfica.
+
+| Control       | Función                            |
+| ------------- | ---------------------------------- |
+| `TextBox`     | Entrada de información             |
+| `Label`       | Presentación de texto              |
+| `Button`      | Ejecución de acciones              |
+| `RadioButton` | Selección de una operación         |
+| `Form`        | Ventana principal de la aplicación |
+
+---
+
+# Conceptos de programación aplicados
+
+```mermaid
+mindmap
+  root((C# Windows Forms))
+    Interfaz gráfica
+      Form
+      Label
+      TextBox
+      Button
+      RadioButton
+    Entrada
+      Datos del usuario
+      Conversión numérica
+    Procesamiento
+      Operaciones aritméticas
+      Porcentajes
+      Condicionales
+    Salida
+      Resultados
+      Mensajes
+    Validación
+      Microsoft Excel
+      Comparación de resultados
+```
+
+---
+
+# Resumen de las prácticas
+
+|  #  | Práctica    | Conceptos principales                     |
+| :-: | ----------- | ----------------------------------------- |
+|  01 | Fecha       | Entrada de datos y presentación           |
+|  02 | Descuento   | Porcentajes y operaciones matemáticas     |
+|  03 | Operaciones | `RadioButton`, condicionales y aritmética |
+
+---
+
+# Resultado del laboratorio
+
+El laboratorio permitió implementar tres aplicaciones gráficas independientes utilizando C# y Windows Forms.
+
+```text
+                   LABORATORIO #1
+                         │
+           ┌─────────────┼─────────────┐
+           │             │             │
+           ▼             ▼             ▼
+       PROBLEMA 1    PROBLEMA 2    PROBLEMA 3
+           │             │             │
+         FECHA        DESCUENTO    OPERACIONES
+           │             │             │
+           └─────────────┼─────────────┘
+                         │
+                         ▼
+                WINDOWS FORMS
+                         │
+                         ▼
+                  C# + .NET
+                         │
+                         ▼
+                  RESULTADOS
+                         │
+                         ▼
+                VALIDACIÓN EXCEL
+```
+
+---
+
+# Autor y contexto académico
+
+<div align="center">
+
+### Victor Montes
+
+**Universidad Tecnológica de Panamá (UTP)**
+
+**Facultad de Ingeniería de Sistemas Computacionales**
+
+**Laboratorio #1 — Controles Básicos de C#**
+
+**Fecha de realización:** 16 de agosto de 2026
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio" alt="C# .NET Visual Studio" />
+
+</div>
+
+---
+
+# Referencia
+
+Este repositorio corresponde al desarrollo académico del **Laboratorio #1 de Controles Básicos de C#**, realizado como parte de las actividades prácticas de programación de la **Universidad Tecnológica de Panamá**.
+
+---
+
+<div align="center">
+
+**C# · .NET · Windows Forms · Visual Studio · Git · GitHub**
+
+<br>
+
+Desarrollado por **Victor Montes**
+
+</div>
